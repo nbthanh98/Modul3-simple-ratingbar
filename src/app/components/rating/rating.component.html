@@ -1,0 +1,9 @@
+<div class="rateBar">
+  <ul class="row">
+    <li *ngFor="let rate of listRate"
+        (click)="onSelectedRate(rate)"
+    >
+      <span>{{rate}}</span>
+    </li>
+  </ul>
+</div>

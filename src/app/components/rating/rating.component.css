@@ -1,0 +1,17 @@
+.rateBar {
+
+}
+.row{
+  display: flex;
+
+}
+.row li:hover a{
+  background-color: slategray;
+
+}
+li{
+  list-style: none;
+  padding: 20px 20px;
+  background-color: brown;
+
+}

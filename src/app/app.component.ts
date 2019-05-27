@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  data: number;
   title = 'rating';
+  nhanData(data) {
+    this.data = data;
+  }
 }
